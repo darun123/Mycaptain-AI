@@ -1,0 +1,8 @@
+inp=input('Enter List1 : ')
+list1=inp.split(',')
+i=int(0)
+for i in range(len(list1)):
+ if int(list1[i])<0:
+  continue
+ else:
+  print (list1[i])
